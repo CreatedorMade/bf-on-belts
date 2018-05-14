@@ -20,4 +20,11 @@ I thought you'd never ask!
 BoB is split into two parts - the belt definition and the program definition. The belt definition creates a set of machines and belts. Belts transport data around, while machines can take data in from the belts, use brainfuck code to evaluate it, and spit it back out onto the belts. The program definition defines the code for each machine.
 
 ## Further reading
-WIP - Links to the technical pages will show up once I start writing them.
+[The Basics](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/bob-basics.md)
+
+[Machines](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/machines.md)
+
+[Coding](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/coding.md)
+
+##When in doubt
+Remember our catchphrase, "At least it isn't Malbolge!"
