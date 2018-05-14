@@ -24,4 +24,4 @@ M>===>o
 ```
 Remember that there can only ever be one `i` and one `o` in a program.
 
-Now that you know about machines, it's time to do some coding! (Again, this will be a link once I write the page)
+Now that you know about machines, [it's time to do some coding](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/coding.md)!
