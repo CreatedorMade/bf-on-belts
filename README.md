@@ -6,7 +6,7 @@ Brainfuck on Belts is a variation on the esoteric programming language [Brainfuc
 
 ## About Brainfuck
 Brainfuck, or BF if you're being polite, is an... interesting language. In it, you have an array of cells acting as your memory, and a set of characters that let you move your "pointer" around the array and either add to, subtract from or compare the values under it. It only has 8 valid characters - those being `><+-.,[]`. Each program written in it will look something like this:
-```
+```brainfuck
 ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
 ```
 (It's a hello world program)
@@ -16,17 +16,5 @@ BoB uses a slightly different version of BF, where there are 4 commands (replaci
 I thought you'd never ask!
 BoB is split into two parts - the belt definition and the program definition. The belt definition creates a set of machines and belts. Belts transport data around, while machines can take data in from the belts, use brainfuck code to evaluate it, and spit it back out onto the belts. The program definition defines the code for each machine.
 
-(WIP DO NOT READ PAST THIS)
-
-```
-MONOSPACE
-M N S A E
- O O P C
-
- V
- O>==     =>
-    =     A
-    =     O
-    V     A
-    O>=====
-```
+## Further reading
+WIP - Links to the technical pages will show up once I start writing them.
