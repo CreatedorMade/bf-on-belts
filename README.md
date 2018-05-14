@@ -12,6 +12,7 @@ Brainfuck, or BF if you're being polite, is an... interesting language. In it, y
 ```
 
 (It's a hello world program)
+
 BoB uses a slightly different version of BF, where there are 4 commands (replacing . and ,) that can each either be used for inputting and outputting. Everything else about it is the same.
 
 ## What about the belts?
