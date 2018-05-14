@@ -6,10 +6,10 @@ BoB files are, as discussed in the readme, split into two parts - the belt defin
 
 ```
 <belt definition>
-:<machine name 1>:<minified brainfuck code>
-:<machine name 2>:<minified brainfuck code>
+<machine name 1>:<minified brainfuck code>
+<machine name 2>:<minified brainfuck code>
 ...
-:<machine name n>:<minified brainfuck code>
+<machine name n>:<minified brainfuck code>
 ```
 
 The belt definition is its own language, basically. In it, you have 6 different control characters that are used to make the belts, those being `AV<>+=`. Here, = is the most important character - it represents a belt. + is a bridge, where two belts cross each other but no data transfer occurs. And finally, A, V, < and > are input/output characters - they put data into machines and take data out.
@@ -30,10 +30,11 @@ You can see that each belt has one or more i/o characters pointing onto it and e
 ```
 V   V
 =====
+  =
+>=+=>
+  =
   V
 ```
-Here, there are two inputs to the belt and only one output - setups like this can be used to take data from multiple sources and treat it the same.
+There are lots of ways to create invalid belts. Remember, each belt is a line - no splitting or merging. If you want to test a belt's validity, just look at each character on it. If any `=` is adjacent to three or more other `=`s, it's invalid. If it loops, it's also invalid. And of course, the golden rule, each belt must have exactly one output, no more, no less.
 
-There are, however, lots of ways to create invalid belts. Remember, each belt is a line - no splitting or merging. If you want to test a belt's validity, just look at each character on it. If any `=` is adjacent to three or more other `=`s, it's invalid. If it loops, it's also invalid. And of course, the golden rule, each belt must have exactly one output.
-
-Now that you know about belts, it's time to learn about machines! (this is going to be a link once I write the page on machines)
+Now that you know about belts, it's time to [learn about machines](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/machines.md)!
