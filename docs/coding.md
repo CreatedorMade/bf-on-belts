@@ -64,7 +64,7 @@ The merger's code is particularly tricky because it uses nested loops. It will a
 Obligatory Hello World implementation
 ```
 M>=>o
-M:++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+M:++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>d>---d+++++++dd+++d>>d<-d<d+++d------d--------d>>+d>++d
 ```
 I'll let you figure out what this one does (it took a while to program)
 ```
