@@ -26,5 +26,5 @@ BoB is split into two parts - the belt definition and the program definition. Th
 
 [Coding](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/coding.md)
 
-##When in doubt
+## When in doubt
 Remember our catchphrase, "At least it isn't Malbolge!"
