@@ -1,5 +1,5 @@
 # Machines
-Time to write some brainfuck
+Like computers but dumber
 
 ## Placing machines
 Machines are placed in the belt definition - any character that isn't a belt (`=` and `+`), i/o character (`AV<>`), colon `:`, letter `i` or letter `o` is considered a machine. That character is the machine's name, and is used later to define code for it. Here, we have a machine that takes some input from somewhere and puts it onto a belt:
