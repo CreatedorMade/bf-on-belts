@@ -58,7 +58,7 @@ And a merger:
      M>=>o
      A
 ...===
-M:+[>[-]W[d][-]S[d]<]
+M:+[>[-]W[d[-]][-]S[d[-]]<]
 ```
 The merger's code is particularly tricky because it uses nested loops. It will also not output any data if the data on the belt is 0, so keep that in mind. It's a good example of using `WASD` instead of `wasd` - since data might not come in on either side, it will happily keep going along rather than waiting for data that never arrives.
 
