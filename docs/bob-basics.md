@@ -12,29 +12,31 @@ BoB files are, as discussed in the readme, split into two parts - the belt defin
 <machine name n>:<minified brainfuck code>
 ```
 
-The belt definition is its own language, basically. In it, you have 6 different control characters that are used to make the belts, those being `AV<>+=`. Here, = is the most important character - it represents a belt. + is a bridge, where two belts cross each other but no data transfer occurs. And finally, A, V, < and > are input/output characters - they put data into machines and take data out.
+The belt definition is its own language, basically. In it, you have 5 different control characters that are used to make the belts, those being `AV<>+`. Here, `AV<>` - the arrows - are the most important characters - they represent belts, as well as i/o for the machines. `+` is a bridge, where two belts cross each other but no data transfer occurs.
 
-Any valid belt will be a line of `=` leading to any i/o character. Every belt is a single line - no splitting or merging is allowed. Here are some valid belts:
+Any belt will be a line of arrows leading into a machine. Here are some examples of belts:
 
 ```
->=====>   Pretty straighforward, it's a line
+>>>>>>>   Pretty straighforward, it's a line
 
-=======   Multiple inputs, one output
+>>>>>>V   Multiple inputs, one output
 A  A  V
 
-   ===
->= = =>   Wavy design, is like a straight line but longer
- ===
+   >>V
+>V A >>   Wavy design, is like a straight line but longer
+ >>A
 ```
-You can see that each belt has one or more i/o characters pointing onto it and exactly one pointing off of it. Every belt must have exactly one exit character - it doesn't matter where it is, data will flow towards it from anywhere. With this in mind, here's a more advanced use of belts, to give you an idea of the possibilities:
+
+Belts don't have to be in single lines, however. Here's a more complex system of belts, to give you an idea of the possibilities:
+
 ```
 V   V
-=====
-  =
->=+=>
-  =
+>>V<<
+  V
+>>+>>
+  V
   V
 ```
-There are lots of ways to create invalid belts. Remember, each belt is a line - no splitting or merging. If you want to test a belt's validity, just look at each character on it. If any `=` is adjacent to three or more other `=`s, it's invalid. If it loops, it's also invalid. And of course, the golden rule, each belt must have exactly one output, no more, no less.
+Belts can be in any configuration - merging is allowed, but data takes up space on the belts, so it's not recommended.
 
 Now that you know about belts, it's time to [learn about machines](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/machines.md)!
