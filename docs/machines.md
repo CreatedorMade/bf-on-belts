@@ -14,7 +14,7 @@ Machines are placed in the belt definition - any character that isn't a belt (`A
 Here, the machine is named `M`. You can see the `>` on the left points into the machine - taking data off of the belt and placing it inside the machine. The other `>` points away from the machine, and places any output from `M` onto the second belt. For any data to go into a machine, there must be an arrow pointing directly into it. Any arrow not facing into the machine (this includes going past the machine on the side) is considered an output. Blank spaces adjacent to the machine will count as outputs, but will simply destroy the data placed on them.
 
 ## Inputs
-Now, sometimes you will want to take input from the user and put it onto a belt, or take data from a belt and display it to the user. This is where `i` and `o` come in. By using an i/o character on an `i`, you can take numerical data from the input buffer and put it on a belt, like so:
+Now, sometimes you will want to take input from the user and put it onto a belt, or take data from a belt and display it to the user. This is where `i` and `o` come in. By an `i`, you can take numerical data from the input buffer and put it on a belt, like so:
 ```
 i>M
 ```
