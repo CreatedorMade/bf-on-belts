@@ -30,7 +30,9 @@ world:[[>,>,M]]
 This means that you can place an `i` inline with a belt, and it will function normally. For example, `M>i>o` becomes `M>>>o` in memory. Just remember to never place more than one belt leading away from an `i`, because these belts determine the direction the `i` faces in runtime - so having more than one may result in unpredictable behaviour during compile time.
 
 ## Outputs
-`o` works in the opposite way, taking data off of a belt and showing it to the user:
+Every program must have exactly one output - no more, no less. Anything else will result in a compiler error.
+
+`o` works as an opposite of `i`, taking data off of a belt and showing it to the user:
 ```
 M>o
 ```
