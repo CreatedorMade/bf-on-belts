@@ -80,7 +80,7 @@ I'll let you figure out what this one does (it took a while to program)
 V<<
 V A
 G>S>o
-G:+>+<[>[->>+>+<<<]>>>[-<<<+>>>]<<[->+<]>d<<[->+<]w>>[-]<]
+G:+>+<[>[->>+>+<<<]>>>[-<<<+>>>]<<[->+<]>d<<[->+<]w>>[-]<<<]
 S:+[>awd<]
 ```
 
