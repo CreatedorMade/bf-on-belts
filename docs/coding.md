@@ -84,4 +84,4 @@ G:+>+<[>[->>+>+<<<]>>>[-<<<+>>>]<<[->+<]>d<<[->+<]w>>[-]<]
 S:+[>awd<]
 ```
 
-And there you have it! That was the complete Brainfuck on Belts programming specification. Now that you're a master, let's actuall run your code! (link wip)
+And there you have it! That was the complete Brainfuck on Belts programming specification. Now that you're a master, let's [actually run your code](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/running.md)!
