@@ -1,4 +1,4 @@
-#Running
+# Running
 Let's get this brainfuck ball rolling
 
 ## Using bob.jar
