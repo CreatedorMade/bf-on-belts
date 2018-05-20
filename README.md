@@ -1,6 +1,3 @@
-# IMPORTANT NOTICE
-I have NOT tested bridges (`+`) yet. As a result, you may encounter undocumented behaviour while using them, such as data being sent to the wrong belt, data being overwritten, or data being outright destroyed. DO NOT USE THEM IN THE CURRENT VERSION OF BOB.
-
 # bf-on-belts
 Brainfuck on Belts: because Ruby on Rails is too mainstream
 
