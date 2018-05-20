@@ -30,5 +30,7 @@ I plan on creating a visual Brainfuck on Belts IDE built on top of the current c
 
 [Running](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/running.md)
 
+[Design specs](https://github.com/CreatedorMade/bf-on-belts/wiki)
+
 ## When in doubt
 Remember our catchphrase, "At least it isn't Malbolge!"
