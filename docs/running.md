@@ -4,7 +4,7 @@ Let's get this brainfuck ball rolling
 ## Using bob.jar
 If you don't have Java installed, you'll want to do that now. First thing you'll need to run your BoB program is bob.jar - find it in the root directory of this repository, and download it. Your browser may tell you not to keep it, as .jar files are potentially harmful. Don't worry, I promise it isn't a virus `;)`.
 
-Now that you have the BoB realtime interpreter, all you need to do is open up a command prompt in the directory the jar is located in (shift+click > `Open command window here` on Windows) and type in the following text:
+Now that you have the BoB realtime interpreter, all you need to do is open up a command prompt in the directory the jar is located in (`shift+right click > Open command window here` on Windows) and type in the following text:
 ```
 java -jar bob.jar <your-filename-here> 100
 ```
