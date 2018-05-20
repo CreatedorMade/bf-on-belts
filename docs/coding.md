@@ -25,8 +25,6 @@ One more thing for you to keep in mind: data that reaches a machine will stay on
 
 And finally, a note on machine states: machines can either be running, sleeping (waiting for i/o) or dead. Machines will die when their program finishes, so be sure to use infinite loops like `+[> (code) <]` unless it's important that they stop at some point. Dead machines will remain in the program, but will not execute code and as such will not consume input or generate output. The actual BoB execution environment will end when either A) all machines die or C) all machines are either dead or waiting for input AND there is no `i` (or the `i` has finished reading input) AND there is no data on any belts.
 
-## With that in mind
-
 ## A basic CAT
 A CAT program takes any input it's given and outputs it back to the user. Here's a full BoB CAT program:
 ```
