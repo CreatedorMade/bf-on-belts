@@ -1,7 +1,5 @@
 # IMPORTANT NOTICE
-This software is VERY buggy as of right now. Currently I'm having trouble with directions and i/o. Don't expect anything you write in it to work for now.
-
-Also, I have NOT tested bridges (`+`) yet. As a result, you may encounter undocumented behaviour while using them, such as data being sent to the wrong belt, data being overwritten, or data being outright destroyed. DO NOT USE THEM IN THE CURRENT VERSION OF BOB.
+I have NOT tested bridges (`+`) yet. As a result, you may encounter undocumented behaviour while using them, such as data being sent to the wrong belt, data being overwritten, or data being outright destroyed. DO NOT USE THEM IN THE CURRENT VERSION OF BOB.
 
 # bf-on-belts
 Brainfuck on Belts: because Ruby on Rails is too mainstream
@@ -22,6 +20,9 @@ BoB uses a slightly different version of BF, where there are 12 commands (replac
 I thought you'd never ask!
 
 BoB is split into two parts - the belt definition and the program definition. The belt definition creates a set of machines and belts. Belts transport data around, while machines can take data in from the belts, use brainfuck code to evaluate it, and spit it back out onto the belts. The program definition defines the code for each machine.
+
+## Plans
+I plan on creating a visual Brainfuck on Belts IDE built on top of the current compiler/interpreter. With it, you'll be able to place belts and machines with your mouse rather than a clunky text editor. It will also display the state of the belts and the machines as the program runs.
 
 ## Further reading
 [The Basics](https://github.com/CreatedorMade/bf-on-belts/blob/master/docs/bob-basics.md)
