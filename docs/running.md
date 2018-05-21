@@ -23,7 +23,7 @@ Brainfuck on Belts realtime interpreter by Anaerek
 In this case, the numbers on the left are the tick markers - they count the number of ticks since the program has started. The numbers on the right are the output - they're the actual data that the program produced.
 
 ## Arguments
-You can specify a speed for your program to run at. This is useful when it generates infinite output very quickly - by turning the speed down, you can actually keep track of the vast amount of data generated. Do this by appending a number to the end of the command. The interpreter will run at that many ticks per second (unless it's to slow).
+You can specify a speed for your program to run at. This is useful when it generates infinite output very quickly - by turning the speed down, you can actually keep track of the vast amount of data generated. Do this by appending a number to the end of the command. The interpreter will run at that many ticks per second (unless it can't keep up).
 
 Now, if you want to input some data into your program (using the `i` tile), simply write some numbers after the speed argument (which is required with input - if you want to act like it's not there, set it to 0). These will be placed onto the `i` tile in your program, in order. For example:
 ```
